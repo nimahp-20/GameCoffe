@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
 export default {
+
   darkMode: 'class',
   content: [
     "./index.html",
@@ -35,9 +37,9 @@ export default {
     },
   },
   plugins: [
-    function ({ addVariant }) {
-      addVariant('child', '[& > *]')
-      addVariant('child-hover', '& > *:hover')
-    }
+    plugin(({ addVariant }) => {
+      addVariant('child', '& > *');
+      addVariant('child-hover', '& > *:hover');
+    }),
   ],
 }

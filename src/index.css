@@ -30,14 +30,14 @@
     }
 
     @font-face {
-        font-family: "Dana Medium";
-        src: local('Dana Medium'), url(./../public/fonts/Morabba/woff2/Morabba-Medium.woff2) format('woff2');
+        font-family: "Morabba Medium";
+        src: local('Morabba Medium'), url(./../public/fonts/Morabba/woff2/Morabba-Medium.woff2) format('woff2');
         font-display: swap;
     }
 
     @font-face {
-        font-family: "Dana DemiBold";
-        src: local('Dana DemiBold'), url(./../public/fonts/Morabba/woff2/Morabba-Bold.woff2) format('woff2');
+        font-family: "Morabba Bold";
+        src: local('Morabba Bold'), url(./../public/fonts/Morabba/woff2/Morabba-Bold.woff2) format('woff2');
         font-display: swap;
     }
 
