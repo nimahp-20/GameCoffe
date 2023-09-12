@@ -26,29 +26,18 @@ function Navbar({ }: Props) {
                                 <li className='font-DanaMedium text-orange-200'>
                                     <a href="#">صفحه اصلی</a>
                                 </li>
-                                <li>
+                                <li className='relative'>
                                     <a href="#">فروشگاه</a>
-                                    <ul className='hidden'>
-                                        <li>
-                                            <a href="#">قهوه ویژه</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">ویژه در سطح جهانی</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">قهوه درجه یک</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">ترکیبات تجاری</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">کپسول قهوه</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">قهوه زینو برزیلی</a>
-                                        </li>
-                                    </ul>
+                                    <div className='absolute p-6 '>
+                                        <a href="#">قهوه ویژه</a>
+                                        <a href="#">ویژه در سطح جهانی</a>
+                                        <a href="#">قهوه درجه یک</a>
+                                        <a href="#">ترکیبات تجاری</a>
+                                        <a href="#">کپسول قهوه</a>
+                                        <a href="#">قهوه زینو برزیلی</a>
+                                    </div>
                                 </li>
+
                                 <li>
                                     <a href="#">دیکشنری</a>
                                 </li>
